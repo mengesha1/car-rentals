@@ -130,7 +130,7 @@ RUN_AS_USER="ec2-user"
    sudo usermod -a -G docker ec2-user. (Add ec2-user to docker group)
    sudo chkconfig docker on 
    sudo service docker start
-   // exit and login again
+   /// exit and login again
 ```
 
 
